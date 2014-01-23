@@ -7,6 +7,6 @@ VERSION = '0'
 setup(
     name = 'travistest',
     version = VERSION,
-    install_requires = ['unicodecsv'],
-    dependency_links = ['git+https://github.com/jdunck/python-unicodecsv/master/tarball'],
+    install_requires = ['unicodecsv==0.10.1'],
+    dependency_links = ['https://github.com/jdunck/python-unicodecsv/zipball/master#egg=unicodecsv-0.10.1'],
 )
