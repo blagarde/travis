@@ -1,0 +1,9 @@
+# https://travis-ci.org/blagarde/travis
+language: python
+python:
+  - "3.3"
+  - "3.2"
+  - "2.7"
+  - "2.6"
+  - "pypy"
+script: python test.py
