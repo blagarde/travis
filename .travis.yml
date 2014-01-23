@@ -6,4 +6,4 @@ python:
   - "2.7"
   - "2.6"
   - "pypy"
-script: python test.py
+script: python setup.py install; python test.py
